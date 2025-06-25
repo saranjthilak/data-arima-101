@@ -1,5 +1,24 @@
-## ARIMA with Seasonality
+# 📈 ARIMA 101: Time Series Forecasting
 
-Throughout the lecture, you were introduced to a lot of tools to model a Time Series (ARIMA, seasonal decomposition, using `.diff()` etc.). In this exercise, we're going to take some more time to understand them properly - pulling apart a real time series with seasonality (and with some holes in the data!) to model CO2 emissions in Hawaii on a monthly basis.
+This project introduces the fundamentals of time series forecasting using the **ARIMA (AutoRegressive Integrated Moving Average)** model. It walks through a practical example of analyzing and forecasting temporal data, such as stock prices or sales trends, with statistical modeling.
 
-To get started, open up the `arima_seasonal_intro.ipynb`!
+## 🎯 Project Objectives
+
+- Understand the theory behind ARIMA, ACF, PACF, and stationarity.
+- Load and visualize time series data.
+- Perform time series decomposition and differencing.
+- Identify model parameters using statistical tools.
+- Fit and forecast using the ARIMA model.
+- Evaluate forecast accuracy with standard metrics.
+
+## 🛠️ Tech Stack
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Statsmodels
+- Jupyter Notebook
+
+## 📁 Project Structure
+
